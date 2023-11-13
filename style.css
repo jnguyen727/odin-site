@@ -1,0 +1,102 @@
+.topcontainer {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 1;
+
+}
+
+
+.links {
+    display: flex;
+    gap: 100px;
+    margin-left: 250px;
+    font-size: 16px;
+    align-self: center;
+}
+.logo {
+    
+    justify-content: flex-start;
+    margin-left: 32px;
+
+}
+.body {
+    display: flex;
+    flex: 1;
+
+}
+
+.uppercontainer {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 130px;
+
+
+
+    
+}
+
+
+.maintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    max-width: 900px;
+}
+
+
+
+.secondarytext {
+
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex: 1;
+}
+
+
+
+.image {
+    position: absolute;
+    justify-content: flex-start;
+align-self: flex-end;
+margin-left: 120px;
+margin-bottom: 60px;
+right: 150px;
+
+}
+
+.entiretopcontainer {
+    background-color:#1f2937;
+
+}
+
+
+.button {
+    position: absolute;
+    font-size: 20px;
+    top: 520px;
+    left: 140px;
+    border-radius: 5px;
+    padding:3px;
+    min-height:20px; 
+    min-width: 100px;
+    color: black;
+    background-color: skyblue;
+    border-color: black;
+}
+
+.button:hover {
+    background-color: white;
+    transition: 0.7s;
+}
+
+.secondheader {
+    display: flex;
+    justify-content: center;
+}
